@@ -20,4 +20,3 @@ if __name__ == "__main__":
     count_path = collection.count_documents({"method": "GET",
                                              "path": "/status"})
     print(f"{count_path} status check")
-    
